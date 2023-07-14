@@ -15,9 +15,10 @@
 </template>
 
 <script>
-export default {
-  name: 'HeaderComponent',
-}
-</script>
+import { defineComponent } from '@vue/composition-api'
 
-<style></style>
+export default defineComponent({
+  name: 'HeaderComponent',
+  setup() {},
+})
+</script>
