@@ -99,6 +99,7 @@ export default defineComponent({
               return setImageSubBreed(params)
             })
           } else {
+            modal.value = true
             $overlay(false)
           }
         }
